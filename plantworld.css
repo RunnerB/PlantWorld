@@ -1,0 +1,42 @@
+header {background-color: Silver;
+}
+body {
+  background-color: White;
+}
+h1 {
+ text-align: color: Green;text-align: center;border: 2px solid green;padding: 5px;
+ }
+h2 {color: black;
+font-size: 2.5em;
+}
+p {
+  color: black;
+}
+ FOOTER {background-color: silver;
+ }
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+ 
+ nav {
+ text-align: center;
+ }
+ .center {
+ text-align: center;
+ }

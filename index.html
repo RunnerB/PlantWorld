@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<header>
+<link rel="stylesheet" href="plantworld.css">
+ <!-- calls the external style sheet called PlantWorld.css -->
+<p>top of head</p>
+    <title>PLANTWORLD PARK</title>
+	<h1><a href="index.html">PLANT WORLD PARK</a></h1>
+		<nav>
+		<a href="greenhouse.html">GREENHOUSE | </a>
+<a href="turtles.html">TURTLES</a>
+
+	</nav>
+
+ <p>bottom of head</p>
+  <!-- start of hover over part1 from   -->
+<!-- NOTE: adding dev. notes inside the style element causes glitches INSTEAD use: starts with /* and ends with */ -->
+<style>
+
+
+ h1 {
+ text-align: center;
+ }
+ nav {
+ text-align: center;
+ }
+ .center {
+ text-align: center;
+ }
+
+p3 {
+  font-size: 5em; /* 14px/16=0.875em */
+}
+
+
+/* Start of code to make the gover over greenhouse. It starts from .container  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+
+ .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* End of code to make the hover over greenhouse. It starts from .container  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+
+
+ /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+ </style>
+ <!-- end of hover over part1  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade  -->
+ </header>
+  <body>
+  <p>top of body</p>
+  	<a href="boom.html"><img src="buttons.png" style="width:5%"></a>
+<details>
+<summary>click the arrow to enter:</summary><!-- This area is clickable -->
+<P3>PLANTWORLD</P3><!-- This text is hidden until user clicks the arrow as per summary line 66 -->
+<p>Hover over the image to see the effect.</p>
+
+<!-- start of hover over part2 -->
+
+<div class="container">
+
+  <img src="greenhouse.jpg" alt="greenhouse" class="image">
+ 
+  
+  <div class="overlay">
+ 
+    <div class="text">
+	 <a href="greenhouse.html">
+	Click here for todays shipping
+	</a>
+	</div>
+	
+  </div>
+</div>
+<!-- end of hover over part2 -->
+
+</details>
+
+<div class="sticky"></div>
+
+  <p>bottom of body</p>
+  </body>
+  <FOOTER>
+  <p>top of footer</p>
+  <nav><!-- text links for navigation -->
+ <a href="contactUs.html">Contact Us | </a>
+  <a href="subscribe.html">Subscribe | </a> 
+  <a href="wireframe.html">Wireframe</a>
+  </nav><!-- text links for navigation -->
+<p class="center">® ©ODING RULES</p></br> <!-- example of class selector to change style -->
+  <p>bottom of footer</p>
+  </FOOTER>
+</html>
